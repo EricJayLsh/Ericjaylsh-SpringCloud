@@ -1,0 +1,45 @@
+
+server:
+  port: 8002
+
+spring:
+  application:
+    name: springcloud-provider-payment
+  datasource:
+    #mysqL驱动包
+    driver-class-name: org.gjt.mm.mysql.Driver
+    #当前数据源操作类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://ericjaylsh.dev.xyz:3306/ericjaylsh_springcloud?useUnicode=true&characterEncoding=utf-8&usesSL=false
+    password: 123456
+    username: root
+    druid:
+      test-while-idle: false
+
+
+logging:
+  level:
+    com.ericjaylsh.springcloud.dao: debug
+
+
+mybatis:
+  # mybatis 配置文件
+#  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+  #所有Entity别名类所在包
+  type-aliases-package: com.ericjaylsh.springcloud.domain
+
+
+eureka:
+  client:
+    service-url:
+      # defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+    #表示是否将自己注册进Eurekaserver默认为true。
+    register-with-eureka: true
+    #是否从EurekaServer抓取已有的注册信息，默认为true。单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+    fetch-registry: true
+  instance:
+    instance-id: provider8002
+    prefer-ip-address: true
+

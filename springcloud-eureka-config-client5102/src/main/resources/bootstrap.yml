@@ -1,0 +1,36 @@
+
+spring:
+  application:
+    name: springcloud-config-client
+  cloud:
+    config:
+      label: master                         # 分支名称
+      name: config                          # 配置文件名称
+      profile: dev                          # 文件后缀
+      uri: http://ericjaylsh.dev.xyz:5001   # 配置中心地址
+  rabbitmq:
+    host: ericjaylsh.xyz
+    port: 5672
+    username: guest
+    password: guest
+
+# 上述综合起来： 读取：http://ericjaylsh.dev.xyz:5001/master/config-dev.yml
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/
+
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+# 1.没有配置消息总线时：当配置文件修改后 需要发送一个post请求到客户端 手动刷新 客户端  http://localhost:9000/actuator/refresh
+# 2.配置了消息总线bus时：当配置文件修改后 只需要发送一个post请求到配置中心  config-server 即可更新 所有客户端的配置  http://localhost:5001/actuator/bus-refresh
+server:
+  port: 5102

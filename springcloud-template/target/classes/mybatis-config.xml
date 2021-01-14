@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--注意 1.配置文件有顺序 2.settings 和mappers 必须配置-->
+    <settings>
+        <!--开启驼峰命名映射-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <typeAliases>
+        <!--java对象设置别名的包路径 默认是驼峰命名法的类名-->
+        <package name="com.ericjaylsh.springcloud.domain"/>
+    </typeAliases>
+    <mappers>
+        <!--sql映射文件扫描包路径 要求dao和mapper映射文件在同一路径下-->
+        <!--<package name="com.ericjaylsh.mojito.cache.mapper"/>-->
+
+        <!--<mapper resource="resources/mapper/PaymentMapper.xml"/>-->
+
+    </mappers>
+</configuration>

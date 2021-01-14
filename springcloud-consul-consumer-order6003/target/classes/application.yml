@@ -1,0 +1,15 @@
+
+server:
+  port: 6003
+
+# consul 注册配置如下：
+
+spring:
+  application:
+    name: springcloud-consumer-order
+  cloud:
+    consul:
+      host: ericjaylsh.dev.xyz
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}

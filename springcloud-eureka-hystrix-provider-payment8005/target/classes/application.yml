@@ -1,0 +1,15 @@
+server:
+  port: 8005
+
+spring:
+  application:
+    name: springcloud-eureka-hystrix-provider-payment
+
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/
+#     register-with-eureka: true
+#     fetch-registry: true
+

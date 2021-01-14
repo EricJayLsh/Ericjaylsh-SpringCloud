@@ -1,0 +1,12 @@
+
+server:
+  port: 8003
+
+# zookeeper 注册配置如下：
+
+spring:
+  application:
+    name: springcloud-provider-payment
+  cloud:
+    zookeeper:
+      connect-string: ericjaylsh.xyz:2181   # apache-zookeeper-3.6.1-bin

@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/springcloud-alibaba-nacos-sentinel-server4001/src/main/java/com/ericjaylsh/springcloud/controller/TemplateController.java" line="101" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="977ad41c-d7c6-4529-83a4-be921a9e935d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springcloud-config-server/config-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config-server/config-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/AccessLogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/RouteFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-config-server" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-config-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-server/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-payment8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-order80/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-order8002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-api-commons/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-server7001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-server7002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-order6001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-payment8002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-payment8003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-order6002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consul-provider-payment8004/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-consumer-order6001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-consumer-order6002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-provider-payment8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-provider-payment8002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-zookeeper-provider-payment8003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consul-consumer-order6003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-zookeeper-consumer-order6002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-openfign-consumer-order6004/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-openfeign-consumer-order6004/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-hystrix-provider-payment8005/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-feign-hystrx-consumer-order6005/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-getaway-server9527/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloud-Config/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-config-server5001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-config-client5101/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-config-client5102/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-config-client5011/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-stream-provider8006/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-template/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-stream-consumer8007/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-stream-consumer8008/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba-nacos-provider9001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba-nacos-provider9002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba-nacos-consumer9011/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba-nacos-sentinel-server4001/target/" />
+    <ignored path="$PROJECT_DIR$/seata-order-server3001/target/" />
+    <ignored path="$PROJECT_DIR$/seata-account-server3002/target/" />
+    <ignored path="$PROJECT_DIR$/seata-storage-server3003/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-bus/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Ericjaylsh_SpringCloud$SpringCloudConfigClient5011Application.ic" NAME="SpringCloudConfigClient5011Application Coverage Results" MODIFIED="1599220973143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ericjaylsh.springcloud.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="434" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1400942646">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="28" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="PaymentMapper" value="1" />
+          <entry key="class" value="49" />
+          <entry key="conf" value="19" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="703" />
+          <entry key="md" value="5" />
+          <entry key="pom" value="14" />
+          <entry key="properties" value="2" />
+          <entry key="vmoptions" value="4" />
+          <entry key="xml" value="254" />
+          <entry key="yml" value="239" />
+          <entry key="基础依赖" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="49" />
+          <entry key="HOCON" value="17" />
+          <entry key="JAVA" value="703" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="269" />
+          <entry key="YAML" value="239" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="conf" value="10" />
+          <entry key="dummy" value="148" />
+          <entry key="java" value="8311" />
+          <entry key="md" value="47" />
+          <entry key="txt" value="150" />
+          <entry key="vmoptions" value="16" />
+          <entry key="xml" value="2211" />
+          <entry key="yml" value="5581" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HOCON" value="10" />
+          <entry key="JAVA" value="8311" />
+          <entry key="Markdown" value="47" />
+          <entry key="PLAIN_TEXT" value="314" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="2209" />
+          <entry key="YAML" value="5581" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1504045351">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="5" />
+          <entry key="cmd" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="java" value="30" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="23" />
+          <entry key="yml" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="30" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="24" />
+          <entry key="YAML" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="49" />
+          <entry key="xml" value="9" />
+          <entry key="yml" value="141" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="49" />
+          <entry key="XML" value="9" />
+          <entry key="YAML" value="141" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>discoveryClient</find>
+      <find>timeOutHystrixMethod</find>
+      <find>circuitBreaker.enabled</find>
+      <find>paymentCircuitBreaker_fallback</find>
+      <find>circuitBreaker.requestVolumeThreshold</find>
+      <find>circuitBreaker.sleepwindowInMilliseconds</find>
+      <find>circuitBreaker.errorThresholdPercentage</find>
+      <find>execution.isolation.thread.timeoutInMilliseconds</find>
+      <find>8761</find>
+      <find>profiles</find>
+      <find>TemplateDao</find>
+      <find>prefix</find>
+      <find>spring-cloud-starter-openfeign</find>
+      <find>openfeign</find>
+      <find>druidDatasource</find>
+      <find>mapperLocations</find>
+      <find>dataSourceProxy</find>
+      <find>seata_account_server</find>
+      <find>springcloud-alibaba-nacos-sentinel-server</find>
+      <find>Order</find>
+      <find>baseResultMap</find>
+      <find>seata-all</find>
+      <find>spring-cloud-starter-alibaba-sentinel</find>
+      <find>seata-account-server-fescar-service-group</find>
+      <find>seata_tx_group</find>
+      <find>sentinel</find>
+      <find>vgroup_mapping</find>
+      <find>maven.compiler.target</find>
+      <find>payment_route</find>
+      <find>SPRINGCLOUD-PROVIDER-PAYMENT</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="EricJayLsh &lt;1664996418@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/domain/Account.java" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/service/impl/StorageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/domain/Storage.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/controller/TemplateController.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-provider-payment8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/resources/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/controller/TemplateController.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/controller/StorageController.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/dao/StorageDao.java" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/resources/mapper/StorageMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/SpringCloudApplication.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/SpringCloudApplication.java" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/resources/mapper/AccountrMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/service/impl/StorageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/config/MyDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/java/com/ericjaylsh/springcloud/config/MyDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/resources/registry.conf" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/java/com/ericjaylsh/springcloud/config/MyDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/seata-account-server3002/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-storage-server3003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-order-server3001/src/main/java/com/ericjaylsh/springcloud/SpringCloudApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-server7001/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-server7002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/SpringcloudEurekaZuulServer9528Application.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/MylogGateWayFilter.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/MyFilter.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/AccessLogFilter.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/RouteFilter.java" />
+        <option value="$PROJECT_DIR$/springcloud-eureka-bus/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\work\2020\maven-repository\repository" />
+        <option name="mavenHome" value="F:/work/2020/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="F:\work\2020\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-64" />
+    <option name="y" value="149" />
+    <option name="width" value="1206" />
+    <option name="height" value="677" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="true" />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ericjaylsh-SpringCloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ericjaylsh-SpringCloud2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ericjaylsh-SpringCloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ericjaylsh-SpringCloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-eureka-bus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ericjaylsh-SpringCloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ericjaylsh-SpringCloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-eureka-config-client5102" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ericjaylsh-SpringCloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ericjaylsh-SpringCloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-eureka-config-client5102" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ericjaylsh-SpringCloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ericjaylsh-SpringCloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-eureka-config-client5102" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ericjaylsh-SpringCloud2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ericjaylsh-SpringCloud2" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-eureka-config-client5102" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="HystrixCommand&#9;FILE&#9;jar://F:/work/2020/maven-repository/repository/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class&#10;HystrixCommandP&#9;FILE&#9;jar://F:/work/2020/maven-repository/repository/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599307146678" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\learn-projects\Ericjaylsh-SpringCloud\seata-account-server3002\src\main\resources" />
+      <recent name="H:\learn-projects\Ericjaylsh-SpringCloud\seata-order-server3001\src\main\resources" />
+      <recent name="H:\learn-projects\Ericjaylsh-SpringCloud\seata-storage-server3003\src\main\resources" />
+      <recent name="H:\learn-projects\Ericjaylsh-SpringCloud\seata-storage-server3003\src\main\resources\mapper" />
+      <recent name="H:\learn-projects\Ericjaylsh-SpringCloud\seata-account-server3002\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ericjaylsh.springcloud.eureka.zuulserver9528.filter" />
+      <recent name="com.ericjaylsh.springcloud.controller" />
+      <recent name="com.ericjaylsh.springcloud.domain" />
+      <recent name="com.ericjaylsh.springcloud.config" />
+      <recent name="com.ericjaylsh.springcloud.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\learn-projects\Ericjaylsh-SpringCloud\SpringCloud-Config\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+          <option name="enabled" value="false" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.2754329" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringcloudEurekaServer7002Application">
+    <configuration name="SpringCloudAlibabaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-alibaba-nacos-provider9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericjaylsh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudAlibabaApplication" />
+      <option name="URL_PATH" value="/provider/get/5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-alibaba-nacos-sentinel-server4001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericjaylsh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudApplication" />
+      <option name="URL_PATH" value="/sentinel/test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-order-server3001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericjaylsh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-account-server3002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericjaylsh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-storage-server3003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ericjaylsh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-api-commons" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApplication8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-stream-provider8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudApplication8006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApplication8007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-stream-consumer8007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudApplication8007" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudApplication8008" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-stream-consumer8008" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudApplication8008" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConfigClient5101Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-config-client5101" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudConfigClient5101Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConfigClient5102Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-config-client5102" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudConfigClient5102Application" />
+      <option name="URL_PATH" value="/client/getConfigInfo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConfigServer5001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-config-server5001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudConfigServer5001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsumerOrder6001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="consumer">
+      <module name="springcloud-eureka-consumer-order6001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudConsumerOrder6001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsumerOrder6002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-zookeeper-consumer-order6002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudConsumerOrder6002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsumerOrder6003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-consul-consumer-order6003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudConsumerOrder6003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsumerOrder6004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-openfeign-consumer-order6004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudConsumerOrder6004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConsumerOrder6005Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-feign-hystrx-consumer-order6005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudConsumerOrder6005Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudGateway9527Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="gateway-server">
+      <module name="springcloud-eureka-getaway-server9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudGateway9527Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProviderPayment8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="provider">
+      <module name="springcloud-eureka-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudProviderPayment8001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProviderPayment8002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="provider">
+      <module name="springcloud-eureka-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudProviderPayment8002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProviderPayment8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-zookeeper-provider-payment8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudProviderPayment8003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProviderPayment8004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-consul-provider-payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudProviderPayment8004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProviderPayment8005Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-hystrix-provider-payment8005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudProviderPayment8005Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudTest5555Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringCloudTest5555Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringbootKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudEurekaBusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-bus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.eureka.bus.SpringcloudEurekaBusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudEurekaServer7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="eureka-server">
+      <module name="springcloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringcloudEurekaServer7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudEurekaServer7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="eureka-server">
+      <module name="springcloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.SpringcloudEurekaServer7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudEurekaZuulServer9528Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka-zuul-server9528" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ericjaylsh.springcloud.eureka.zuulserver9528.SpringcloudEurekaZuulServer9528Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringCloudConsumerOrder6001Application" />
+      <item itemvalue="Spring Boot.SpringcloudEurekaServer7001Application" />
+      <item itemvalue="Spring Boot.SpringcloudEurekaServer7002Application" />
+      <item itemvalue="Spring Boot.SpringCloudGateway9527Application" />
+      <item itemvalue="Spring Boot.SpringCloudProviderPayment8001Application" />
+      <item itemvalue="Spring Boot.SpringCloudProviderPayment8002Application" />
+      <item itemvalue="Spring Boot.SpringCloudConsumerOrder6004Application" />
+      <item itemvalue="Spring Boot.SpringCloudConsumerOrder6003Application" />
+      <item itemvalue="Spring Boot.SpringCloudConsumerOrder6002Application" />
+      <item itemvalue="Spring Boot.SpringCloudConfigClient5102Application" />
+      <item itemvalue="Spring Boot.SpringCloudProviderPayment8005Application" />
+      <item itemvalue="Spring Boot.SpringCloudConsumerOrder6005Application" />
+      <item itemvalue="Spring Boot.SpringCloudProviderPayment8003Application" />
+      <item itemvalue="Spring Boot.SpringCloudProviderPayment8004Application" />
+      <item itemvalue="Spring Boot.SpringCloudApplication" />
+      <item itemvalue="Spring Boot.SpringCloudTest5555Application" />
+      <item itemvalue="Spring Boot.SpringCloudConfigServer5001Application" />
+      <item itemvalue="Spring Boot.SpringCloudConfigClient5101Application" />
+      <item itemvalue="Spring Boot.SpringCloudApplication8006" />
+      <item itemvalue="Spring Boot.SpringCloudApplication8007" />
+      <item itemvalue="Spring Boot.SpringCloudApplication8008" />
+      <item itemvalue="Spring Boot.SpringbootKafkaApplication" />
+      <item itemvalue="Spring Boot.SpringcloudEurekaZuulServer9528Application" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaApplication" />
+      <item itemvalue="Spring Boot.SpringCloudApplication (1)" />
+      <item itemvalue="Spring Boot.SpringCloudApplication (2)" />
+      <item itemvalue="Spring Boot.SpringCloudApplication (3)" />
+      <item itemvalue="Spring Boot.SpringCloudApplication (4)" />
+      <item itemvalue="Spring Boot.SpringcloudEurekaBusApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringCloudApplication (4)" />
+        <item itemvalue="Spring Boot.SpringCloudApplication (3)" />
+        <item itemvalue="Spring Boot.SpringCloudApplication (2)" />
+        <item itemvalue="Spring Boot.SpringCloudApplication (1)" />
+        <item itemvalue="Spring Boot.SpringCloudAlibabaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="977ad41c-d7c6-4529-83a4-be921a9e935d" name="Default Changelist" comment="" />
+      <created>1598972088108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598972088108</updated>
+      <workItem from="1598972090978" duration="4676000" />
+      <workItem from="1599012445904" duration="10749000" />
+      <workItem from="1599026071175" duration="5383000" />
+      <workItem from="1599031558802" duration="77000" />
+      <workItem from="1599031752312" duration="6153000" />
+      <workItem from="1599040288748" duration="7717000" />
+      <workItem from="1599051814165" duration="9741000" />
+      <workItem from="1599063897608" duration="1921000" />
+      <workItem from="1599097076684" duration="8852000" />
+      <workItem from="1599108331695" duration="7482000" />
+      <workItem from="1599117044382" duration="20291000" />
+      <workItem from="1599145547615" duration="883000" />
+      <workItem from="1599146465553" duration="3121000" />
+      <workItem from="1599181612276" duration="9284000" />
+      <workItem from="1599197548005" duration="25305000" />
+      <workItem from="1599229756798" duration="347000" />
+      <workItem from="1599230632372" duration="8208000" />
+      <workItem from="1599239552813" duration="781000" />
+      <workItem from="1599240636293" duration="2099000" />
+      <workItem from="1599269003505" duration="4383000" />
+      <workItem from="1599276653262" duration="1909000" />
+      <workItem from="1599278665346" duration="14995000" />
+      <workItem from="1599362721663" duration="128000" />
+      <workItem from="1599366400810" duration="601000" />
+      <workItem from="1599403196035" duration="2374000" />
+      <workItem from="1599406295221" duration="1297000" />
+      <workItem from="1599440433261" duration="84000" />
+      <workItem from="1599440591688" duration="478000" />
+      <workItem from="1599441673685" duration="31031000" />
+      <workItem from="1599526348992" duration="26901000" />
+      <workItem from="1599558061868" duration="2264000" />
+      <workItem from="1606483588707" duration="528000" />
+      <workItem from="1606572471730" duration="1055000" />
+      <workItem from="1609929669139" duration="12088000" />
+      <workItem from="1609950684641" duration="1536000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加配置文件">
+      <created>1599200085205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599200085206</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加配置文件">
+      <created>1599200771490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599200771490</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="234722000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="设计师" order="6" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.2761194" />
+      <window_info id="Alibaba Cloud Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.62472886" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34815618" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4582882" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32855567" />
+      <window_info anchor="bottom" id="Docker" order="10" weight="0.12458655" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.48264644" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49946696" visible="true" weight="0.061742008" />
+      <window_info anchor="bottom" id="CheckStyle" order="17" />
+      <window_info anchor="bottom" id="SonarLint" order="18" />
+      <window_info anchor="bottom" id="JProfiler" order="19" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="20" />
+      <window_info anchor="bottom" id="MyBatis Log" order="21" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.7420043" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="7" visible="true" weight="0.20788912" />
+      <window_info anchor="right" id="zoolytic" order="8" weight="0.20735608" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info active="true" anchor="right" id="REST Client" order="13" visible="true" weight="0.07036247" />
+      <window_info anchor="right" id="Codota" order="14" />
+      <window_info anchor="right" id="Word Book" order="15" side_tool="true" />
+      <window_info anchor="right" id="Mybatis datasource" order="16" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="RestServices" order="17" />
+      <window_info anchor="right" id="Alibaba ROS Templates" order="18" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="19" />
+      <window_info anchor="right" id="Json Parser" order="20" />
+      <window_info anchor="right" id="Alibaba Log Console" order="21" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="设计师" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.3107676" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6257242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34815618" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4582882" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.48264644" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="15" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49946696" weight="0.1637744" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.7420043" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.27771854" />
+      <window_info anchor="right" id="zoolytic" order="8" weight="0.20735608" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info active="true" anchor="right" id="REST Client" order="13" visible="true" weight="0.07036247" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/SpringCloud-Config" />
+    </ignored-roots>
+    <MESSAGE value="添加配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加配置文件" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-consumer-order6001/src/main/java/com/ericjaylsh/springcloud/SpringCloudConsumerOrder6001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-consumer-order6001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-consumer-order6001/src/main/java/com/ericjaylsh/springcloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-provider-payment8001/src/main/java/com/ericjaylsh/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-provider-payment8001/src/main/java/com/ericjaylsh/springcloud/service/impl/PaymentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-api-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-provider-payment8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-server7002/src/main/java/com/ericjaylsh/springcloud/SpringcloudEurekaServer7002Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-server7002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-server7001/src/main/java/com/ericjaylsh/springcloud/SpringcloudEurekaServer7001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-server7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="200" column="39" selection-start-line="200" selection-start-column="29" selection-end-line="200" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/reactor-core-3.3.1.RELEASE.jar!/reactor/core/publisher/Mono.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-getaway-server9527/src/main/java/com/ericjaylsh/springcloud/config/GatewayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-getaway-server9527/src/main/java/com/ericjaylsh/springcloud/filter/MylogGateWayFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-getaway-server9527/src/main/java/com/ericjaylsh/springcloud/SpringCloudGateway9527Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-getaway-server9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-zuul-server9528/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-stream-provider8006/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="39" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-zuul-server9528/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/MylogGateWayFilter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-provider-payment8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/SpringcloudEurekaZuulServer9528Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.2.1.RELEASE/spring-cloud-netflix-zuul-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="139" column="70" selection-start-line="139" selection-start-column="64" selection-end-line="139" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-provider-payment8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-getaway-server9527/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-provider-payment8002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/AccessLogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0/guava-16.0.jar!/com/google/common/util/concurrent/RateLimiter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0/guava-16.0-sources.jar!/com/google/common/util/concurrent/RateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="79" column="69" lean-forward="true" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-zuul-server9528/src/main/java/com/ericjaylsh/springcloud/eureka/zuulserver9528/filter/RouteFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-config-client5101/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-config-client5102/src/main/java/com/ericjaylsh/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-config-client5102/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/ericjaylsh/springcloud/SpringbootKafkaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-config-server5001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-config-client5102/src/main/java/com/ericjaylsh/springcloud/SpringCloudConfigClient5102Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-bus/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-bus/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-config-server5001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-config-client5101/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="39" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-config-client5102/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="21" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-bus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Ericjaylsh-SpringCloud</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

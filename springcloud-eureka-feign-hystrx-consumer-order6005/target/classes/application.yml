@@ -1,0 +1,29 @@
+server:
+  port: 6005
+
+spring:
+  application:
+    name: springcloud-eureka-feign-hystrx-consumer-order6005
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/
+     # defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
+
+# 配置feign 的日志级别和接口
+logging:
+  level:
+    com.ericjaylsh.springcloud.openfeign.IProviderPaymentService: debug、
+
+feign:
+  hystrix:
+    enabled: true    # 开启 客户端的hystrix
+
+
+# 设置 openfeign 超时时间 openfeign 自带 ribbon 依赖 （默认时间是 1s）
+ribbon:
+  ReadTimeout: 5000     # 建立连接后 读取资源时间
+  ConnectTimeout: 5000  # 与服务端（服务提供方）建立连接时间

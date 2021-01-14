@@ -1,0 +1,48 @@
+server:
+  port: 5001
+
+# 客户端不添加配置中心的uri 会默认访问8888端口 但是添加uri之后 自身端口失效 变为9000
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/EricJayLsh/springcloud-config-server.git
+          search-paths:
+            - springcloud-config-server
+      label: master
+  rabbitmq:
+    host: ericjaylsh.xyz
+    port: 5672
+    username: guest
+    password: guest
+
+#
+#  HTTP服务具有以下形式的资源：
+#
+#  /{application}/{profile}[/{label}]
+#  /{application}-{profile}.yml
+#  /{label}/{application}-{profile}.yml
+#  /{application}-{profile}.properties
+#  /{label}/{application}-{profile}.properties
+#
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/
+
+
+# rabbitQM配置 刷新消息的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+
+# 1.没有配置消息总线时：当配置文件修改后 需要发送一个post请求到客户端 手动刷新 客户端  http://localhost:9000/actuator/refresh
+# 2.配置了消息总线bus时：当配置文件修改后 只需要发送一个post请求到配置中心  config-server 即可更新 所有客户端的配置  http://localhost:5001/actuator/refresh
+# 3. http://localhost:5001/actuator/refresh/springcloud-config-client:5101 该命令定点通知 客户端5101 ，此时只有5101上的配置回更新，5102上的不会更新
+#   格式：http://localhost:5001/actuator/refresh/{为服务名称}:{端口号}

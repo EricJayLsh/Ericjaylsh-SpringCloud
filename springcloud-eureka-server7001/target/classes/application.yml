@@ -1,0 +1,18 @@
+server:
+  port: 7001
+
+# 为了实现高可用 eureka 服务需要相互注册
+eureka:
+  instance:
+    hostname: eureka7001.com
+  client:
+    register-with-eureka: false # 取消注册自己
+    fetch-registry: false       # 取消服务检索
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #defaultZone: http://eureka7002.com:7002/eureka/
+#  server:
+#    # 关闭eureka 保护模式（只要注册的服务不可用 立即将其剔除）
+#    enable-self-preservation: false
+#    # eureka server清理无效节点的时间间隔
+#    eviction-interval-timer-in-ms: 2000

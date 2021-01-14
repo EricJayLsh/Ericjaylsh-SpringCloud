@@ -1,0 +1,13 @@
+
+u
+java:S1192D"ZDefine a constant instead of duplicating this literal "/provider/getPaymentById/" 3 times.(Î´áÆøÿÿÿÿ
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(Ì¶—”
+J
+java:S3740L"/Provide the parametrized type for this generic.(‚èÆ£úÿÿÿÿ
+7
+java:S1170!"!Make this final field static too.(áúøõ
+Q	java:S125 "<This block of commented-out lines of code should be removed.(à“È‡
+J
+java:S3740:"/Provide the parametrized type for this generic.(Ş´À‰øÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(‚êÇ½üÿÿÿÿ
+k	java:S116!"VRename this field "PAYMENT_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áúøõ

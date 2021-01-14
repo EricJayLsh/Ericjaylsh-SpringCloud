@@ -1,0 +1,61 @@
+server:
+  port: 3001
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: seata-order-server
+  datasource:
+    #mysqL驱动包
+    driver-class-name: com.mysql.jdbc.Driver
+    #当前数据源操作类型  com.alibaba.druid.pool.DruidDataSource
+    type: com.alibaba.druid.pool.DruidDataSource          # 注意3306 和3307 的版本不同 则mysqL驱动 不同
+    url: jdbc:mysql://localhost:3307/seata_order?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    password: 123456
+    username: root
+    druid:
+      test-while-idle: false
+      db-type: mysql
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        port: 8719                # sentinel 展示端口 自增
+        dashboard: localhost:9033 # sentinel 地址
+      # 设置sentinel 流控规则的保存位置
+    alibaba:
+      seata:
+        tx-service-group: ericjaylsh
+#      datasource:
+#        ds1:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}
+#            groupId: DEFAULT_GROUP
+#            data-tyoe: json
+#            rule-type: f
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+# 开启openfeign 对sentinel 的支持
+feign:
+  sentinel:
+    enabled: true
+
+logging:
+  level:
+    com.ericjaylsh.springcloud.dao: debug
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true # 开启驼峰命名映射

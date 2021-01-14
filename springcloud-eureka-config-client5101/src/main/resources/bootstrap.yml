@@ -1,0 +1,35 @@
+
+# 从配置中心获取配置的 该文件只能是bootstrap.yml application.yml只能用于当前项目中
+spring:
+  application:
+    name: springcloud-config-client
+  cloud:
+    config:
+      label: master                         # 分支名称
+      name: config                          # 配置文件名称
+      profile: dev                          # 文件后缀
+      uri: http://ericjaylsh.dev.xyz:5001   # 配置中心地址
+  rabbitmq:
+    host: ericjaylsh.xyz
+    username: guest
+    password: guest
+    port: 5672
+
+# 上述综合起来： 读取：http://ericjaylsh.dev.xyz:5001/master/config-dev.yml
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/
+
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 5101
+# 这里有个问题 添加配置中心uri之后 当前服务端口失效 直接变成9000 该问题待解决

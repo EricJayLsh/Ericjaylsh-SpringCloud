@@ -1,0 +1,37 @@
+server:
+  port: 1001
+
+
+spring:
+  application:
+    name: springcloud-name
+
+
+
+
+ #####################################
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/
+#      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+    #表示是否将自己注册进Eurekaserver默认为true。
+    register-with-eureka: true
+    #是否从EurekaServer抓取已有的注册信息，默认为true。单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+    fetch-registry: true
+  instance:
+    # 修改主机名
+    instance-id: springcloud-name1001
+    # 注册IP(访问可现实IP)
+    prefer-ip-address: true
+#    # 客户端发送心跳间隔 默认是30s
+#    lease-renewal-interval-in-seconds: 3
+#    # 服务端收到最后一次心跳的等待时间 超时则剔除服务 默认90s
+#    lease-expiration-duration-in-seconds: 5
+
+#mybatis:
+#  # mybatis 配置文件
+#  #  config-location: classpath:mybatis-config.xml
+#  mapper-locations: classpath:mapper/*.xml
+#  #所有Entity别名类所在包
+#  type-aliases-package: com.ericjaylsh.springcloud.domain

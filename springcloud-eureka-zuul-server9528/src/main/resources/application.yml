@@ -1,0 +1,24 @@
+
+server:
+  port: 9528
+
+zuul:
+  routes:
+    ribbon:
+      service-id: SPRINGCLOUD-PROVIDER-PAYMENT
+      path: /ribbon/**
+
+    feign:
+      service-id: SPRINGCLOUD-PROVIDER-PAYMENT
+      path: /feign/**  # \u5F53\u8BF7\u6C42\u5730\u5740\u662F\u8FD9\u4E2A\u5F62\u5F0F\u65F6\uFF0C\u5C06\u8BF7\u6C42\u53D1\u5230
+  ignored-services: *    # \u5C4F\u853D\u670D\u52A1\u540D\u79F0
+  ignored-patterns:  /** # \u5C4F\u853D\u6240\u6709\u8DEF\u5F84
+
+spring:
+  application:
+    name: zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/

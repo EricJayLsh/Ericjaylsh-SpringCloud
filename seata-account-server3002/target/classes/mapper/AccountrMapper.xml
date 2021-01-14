@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ericjaylsh.springcloud.dao.AccountDao">
+
+    <resultMap id="baseResultMap" type="com.ericjaylsh.springcloud.domain.Account">
+        <result column="user_id" property="userId" jdbcType="BIGINT"/>
+        <result column="money" property="money" jdbcType="DECIMAL"/>
+    </resultMap>
+
+
+    <update id="decrease">
+        update t_account set money = money -#{money} where user_id = #{userId}
+    </update>
+
+    <select id="selectAll" resultMap="baseResultMap">
+        select user_id,money from t_account
+    </select>
+
+
+</mapper>

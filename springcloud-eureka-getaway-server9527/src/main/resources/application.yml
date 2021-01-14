@@ -1,0 +1,57 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-eureka-getaway-server
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true                           # 开启动态路由功能 通过微服务名称来转发
+      routes:
+        - id: payment_route                       # 路由ID 建议配合服务名称
+         # uri: http://ericjaylsh.dev.xyz:8001    # 匹配后的路由地址
+          uri: lb://SPRINGCLOUD-PROVIDER-PAYMENT  # 从注册中心获取微服务进行负载均衡转发
+          predicates:
+            - Path=/provider/getT1/**             # 断言 匹配规则  - Path=/red/{segment},/blue/{segment}
+
+#            - After=2020-09-04T10:30:41.895+08:00[Asia/Shanghai]   # 时间之后
+#            - Before=2020-10-04T10:30:41.895+08:00[Asia/Shanghai]
+#            - Between=2020-09-04T10:30:41.895+08:00[Asia/Shanghai], 2020-10-04T10:30:41.895+08:00[Asia/Shanghai]
+#            - Cookie=jay,love              #此路由匹配具有名称为 jay 与\d 正则表达式匹配的cookie的请求
+#            - Header=X-Request-Id, \d+     #如果请求具有名为X-Request-Id其值与\d+正则表达式匹配的标头（即，其值为一个或多个数字），则此路由匹配
+#
+#            - Host=**.somehost.org,**.anotherhost.org
+##            {sub}.myhost.org还支持URI模板变量（例如）。
+##            如果请求具有这种路由匹配Host用的头值www.somehost.org或beta.somehost.org或www.anotherhost.org。
+#
+#            - Method=GET,POST
+#            - Query=green            # 查询路由谓词采用两个参数：required param和optional regexp
+#            - RemoteAddr=192.168.1.1/24    #RemoteAddr路由谓词工厂采用CIDR表示法（IPv4或IPv6）字符串的列表（最小大小1），例如192.168.0.1/16（其中192.168.0.1IP地址和16子网掩码）
+#
+#            - Weight=group1, 8   #约80％的流量转发至weighthigh.org，并将约20％的流量转发至weightlow.org。
+
+
+
+
+        - id: payment_route
+         # uri: http://ericjaylsh.dev.xyz:8001
+          uri: lb://SPRINGCLOUD-PROVIDER-PAYMENT  # 从注册中心获取微服务进行负载均衡转发
+          predicates:
+          - Path=/provider/getT2/**
+          filters:
+          - AddRequestHeader=X-Request-Red, blue
+          - AddRequestParameter=red, blue
+
+#          - Weight=group2, 2
+
+
+
+eureka:
+  instance:
+    hostname: springcloud-eureka-getaway-server
+  client:
+    service-url:
+      defaultZone: http://ericjaylsh.dev.xyz:7001/eureka/
+     # defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
